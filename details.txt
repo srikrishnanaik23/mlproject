@@ -1,0 +1,6 @@
+components folder is created in src folder and in componenets folder we create _init_.py file so that import and export of the folder can be done
+data_ingestion.py in components has all the code which reads the data or date related one.
+data_transfromation.py in componenets has the trasnfation of data code.
+model_trainer.py in componenets has the training
+train_pipeline.py and predict_pipeline in the pipeline folder has the access to the data in the components folder and useful and we create the _init_.py in pipeline as well so that we can import to other locations.
+we create exception.py, logger.py and utils.py for exceptions of errors, log entries and helper functions respectively in the src folder since src folder has main code.
